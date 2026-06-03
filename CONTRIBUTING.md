@@ -15,7 +15,7 @@ The issues page is another good place to look for ways to contribute.
 
 ## Compatibility
 
-This library needs to support Android which means we are limited to Java 7 sans try-with-resources.
+This library targets Java 17 LTS. Source and target compatibility are set to Java 17 in the Gradle build.
 
 ## Code Style
 

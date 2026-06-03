@@ -51,7 +51,7 @@ artifacts {
 
 signing {
     required { gradle.taskGraph.hasTask("publish") }
-    sign configurations.archives
+    sign publishing.publications.mavenJava
 }
 
 jacoco {
